@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "server": "json-server --watch db.json",
     "serve:ssr:my-app": "node dist/my-app/server/server.mjs"
   },
   "private": true,
@@ -21,7 +22,10 @@
     "@angular/platform-server": "^17.1.0",
     "@angular/router": "^17.1.0",
     "@angular/ssr": "^17.1.1",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
     "express": "^4.18.2",
+    "jquery": "^3.7.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
