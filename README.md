@@ -28,3 +28,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## For Database json server is used
 Documentation of the package is https://www.npmjs.com/package/json-server
+
+
+![image](https://github.com/mubinsaeed/Todo-App-using-Angular17/assets/127494370/a3807483-bed6-48cd-9c9a-4af67c675893)
+
+![image](https://github.com/mubinsaeed/Todo-App-using-Angular17/assets/127494370/e183c502-9d30-46dd-8ac6-90579ca4aaf0)
+
