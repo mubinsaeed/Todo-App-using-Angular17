@@ -2,15 +2,34 @@
   "task": [
     {
       "id": "5a70",
-      "title": "the task"
+      "title": "the task",
+      "important": true
     },
     {
       "id": "a88a",
-      "title": "the new task is here"
+      "title": "the new task is here",
+      "completed": true,
+      "important": true
     },
     {
       "id": "c1ee",
-      "title": "thisi"
+      "title": "thisi",
+      "important": true,
+      "completed": true
+    },
+    {
+      "id": "8526",
+      "title": "note the task",
+      "completed": true
+    },
+    {
+      "id": "4390",
+      "title": "this is the check task",
+      "important": true
+    },
+    {
+      "id": "e86b",
+      "title": "added task"
     }
   ]
 }

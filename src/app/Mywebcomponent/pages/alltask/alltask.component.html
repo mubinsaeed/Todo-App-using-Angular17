@@ -1,6 +1,5 @@
 <div class="">
-    <h2 class="mt-4">My day </h2>
-    <p style="color: blue;">25/01/2024</p>
+    <app-datetitle></app-datetitle>
     <input type="text"
     id="itemid"
     class="form-control" 
@@ -11,16 +10,6 @@
     (keydown.enter) = "taskfunction()"
     >
     <h4 class="mt-3">Tasks List</h4>
-    @for (task of tasklist; track task) {
-
-
-      <div class="mt-3">
-       
-        <div style=" height: 2rem;" class="bg-white border shadow border-1 rounded ps-3">
-          <p>{{task.title}}</p>
-          <i class="bi bi-check-circle-fill">this</i>
-        </div>
-      </div>
-    }
+   <app-task-list [tasklist]="tasklist" (important)="onimportant($event)" (completed)="oncomplete($event)"></app-task-list>
 
    </div>

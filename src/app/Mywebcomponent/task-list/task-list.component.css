@@ -1,0 +1,8 @@
+.bi-check-circle-fill:hover {
+    color: green;
+    cursor: pointer; 
+  }
+  .bi-star-fill:hover {
+    color: yellow;
+    cursor: pointer; 
+  }
