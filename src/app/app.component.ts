@@ -12,6 +12,6 @@ import { SidebarComponent } from './Mywebcomponent/sidebar/sidebar.component';
 
 
 export class AppComponent {
-  title = 'my-app';
+  title = 'To-do list';
   owner = 'mubin';
 }
