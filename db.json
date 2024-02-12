@@ -1,35 +1,24 @@
 {
   "task": [
     {
-      "id": "5a70",
-      "title": "the task",
+      "id": "e86b",
+      "title": "added task",
+      "completed": true
+    },
+    {
+      "id": "bd91",
+      "title": "task1",
       "important": true
     },
     {
-      "id": "a88a",
-      "title": "the new task is here",
-      "completed": true,
-      "important": true
-    },
-    {
-      "id": "c1ee",
-      "title": "thisi",
+      "id": "7f66",
+      "title": "create an angular app",
       "important": true,
       "completed": true
     },
     {
-      "id": "8526",
-      "title": "note the task",
-      "completed": true
-    },
-    {
-      "id": "4390",
-      "title": "this is the check task",
-      "important": true
-    },
-    {
-      "id": "e86b",
-      "title": "added task"
+      "id": "de93",
+      "title": "class at 3pm"
     }
   ]
 }

@@ -59,4 +59,9 @@ export class AlltaskComponent {
 
 
    }
+   ondelete(emittask:any){
+    console.log("delete",emittask);
+    this.httpservice.deleteselected(emittask).subscribe(()=>console.log("deleted success"));
+    this.getalltask();
+   }
 }

@@ -1,8 +1,12 @@
-<div style="padding-left: 20rem; padding-right: 20rem;" class="input-group bg-dark pt-3 pb-3">
-  <input 
-  type="text" class="form-control" 
-  placeholder="Search the task" aria-label="Username" 
-  aria-describedby="basic-addon1"
-  [formControl] = "usersearch"
-  >
+<div class="row bg-dark  pt-3 pb-3">
+  <div class="col-lg-8 offset-lg-2 text-center "> <!-- Adjust the width by changing col-lg-8 -->
+      <input 
+          type="text" 
+          class="form-control" 
+          placeholder="Search the task" 
+          aria-label="Username" 
+          aria-describedby="basic-addon1" 
+          [formControl]="usersearch"
+      >
+  </div>
 </div>

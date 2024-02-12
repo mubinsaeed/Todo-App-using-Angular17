@@ -6,6 +6,7 @@ import { Injectable, inject } from '@angular/core';
 })
 export class HttpService {
   http = inject(HttpClient);
+  private apiUrl = 'http://localhost:3000/task';
   constructor() {
    }
 
@@ -18,5 +19,10 @@ export class HttpService {
    }
    updatetask(task:any){
     return this.http.put("http://localhost:3000/task/"+task.id,task);
+   }
+
+   deleteselected(task:any){
+    const url = `${this.apiUrl}/${task.id}`; 
+    return this.http.delete(url);
    }
 }

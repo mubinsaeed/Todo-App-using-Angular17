@@ -6,3 +6,7 @@
     color: yellow;
     cursor: pointer; 
   }
+  .bi-trash-fill:hover {
+    color: red;
+    cursor: pointer; 
+  }
